@@ -83,7 +83,7 @@ const Navbar = () => {
         ))}
       </div>
 
-      {/* Branding */}
+     
       <div className="hidden md:flex lg:flex xl:w-1/3 xl:justify-center">
         <Link
           href="/"
@@ -96,7 +96,7 @@ const Navbar = () => {
         </Link>
       </div>
 
-      {/* Social Icons */}
+     
       <div className="hidden md:flex gap-4">
         <Link href="https://github.com/mehak-2">
           <img src="/github.png"  alt="GitHub" width={24} />
@@ -109,7 +109,7 @@ const Navbar = () => {
         </Link>
       </div>
 
-      {/* Responsive Menu */}
+     
       <div className="md:hidden">
         <button
           onClick={() => setOpen((prev) => !prev)} // Toggle menu on click
@@ -129,7 +129,7 @@ const Navbar = () => {
         </button>
 
 
-       {/* Mobile Menu List */}
+    
 {open && (
     <motion.div
         variants={listVariants} 
